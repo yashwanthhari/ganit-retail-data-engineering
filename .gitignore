@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+data/source/*
+data/lake/*
+data/quarantine/*
+!data/source/.gitkeep
+!data/lake/.gitkeep
+!data/quarantine/.gitkeep
+logs/
+.DS_Store
